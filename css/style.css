@@ -474,6 +474,7 @@ ul {
 }
 
 .footer-social-title {
+	fon
 	display: flex;
 	display: block;
 	font-size: 14px;
@@ -498,6 +499,8 @@ ul {
 .footer-social-item {
 	display: flex;
 	display: block;
+
+	font-family: inherit;
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
