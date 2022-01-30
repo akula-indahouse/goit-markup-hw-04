@@ -588,7 +588,8 @@ align-items: center;
 	border-radius: 4px;
 }
 
-.prt-button-link:hover {
+.prt-button-link:hover,
+.prt-button-link:focus {
 	color: #FFFFFF;
 	cursor: pointer;
 }
