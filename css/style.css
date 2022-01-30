@@ -315,10 +315,10 @@ ul {
 }
 
 .staff-social-item {
-	
+
 }
 
-.staf-social-link {
+.staff-social-link {
 	display: block;
 	display: flex;
 	width: 44px;
@@ -327,7 +327,6 @@ ul {
 	justify-content: center;
 	border-radius: 50%;
 	cursor: pointer;
-
 }
 
 .staff-icon {
@@ -340,16 +339,18 @@ ul {
 	margin-right: 10px;
 }
 
-.staff-social-item:hover .staff-icon {
+.staff-social-link:hover .staff-icon,
+.staff-social-link:focus .staff-icon {
 	fill: #FFFFFF;
 }
 
-
-
-.staff-social-item .staff-icon:hover,
-.staff-social-item .staff-icon:focus {
-	background-color: #2196F3;
+.staff-social-link:hover,
+.staff-social-link:focus {
+background-color: #2196F3;
 }
+
+
+
 
 
 .staff-name {
@@ -378,7 +379,7 @@ ul {
 	display: block;
 	font-family: inherit;
 	font-size: 36px;
-	line-height: 1.17;
+	line-height: 1.17px;
 	text-align: center;
 	letter-spacing: 0.03em;
 	margin-bottom: 50px;
@@ -507,41 +508,42 @@ ul {
 	margin-left: 70px;
 	justify-content: center;
 }
+
 .footer-social-item {
-	border-radius: 50%;
-	background-color: rgba(255, 255, 255, 0.1);
-}
-
-
-.footer-adress-link {
-	display: flex;
-	display: block;
-
-	font-family: inherit;
-	width: 44px;
-	height: 44px;
 	
-	background-position: center;
-	margin-top: 12px;
 	
-	justify-content: center;
-	cursor: pointer;
 }
 
 .footer-social-item:not(:last-child) {
 	margin-right: 10px;
 }
 
-.footer-social-item .footer-social-icon:hover,
-.footer-social-item .footer-social-icon:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
 	background-color: #2196F3;
 }
 
+.footer-social-link {
+    display: block;
+	display: flex;
 
-	
+	justify-content: center;
+	cursor: pointer;
+align-items: center;
+	font-family: inherit;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
-
+.footer-social-icon {
+	display: flex;
+	display: block;
+	fill: #FFFFFF;
+    justify-content: center;
+	;
+}
 
 
 /*-------------------------PORTFOLIO.html----------------*/
