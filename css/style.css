@@ -318,7 +318,7 @@ ul {
 	
 }
 
-.staff-social-link {
+.staf-social-link {
 	display: block;
 	display: flex;
 	width: 44px;
@@ -327,7 +327,9 @@ ul {
 	justify-content: center;
 	border-radius: 50%;
 	cursor: pointer;
+
 }
+
 .staff-icon {
 	display: flex;
 	display: block;
@@ -338,15 +340,14 @@ ul {
 	margin-right: 10px;
 }
 
-.staff-social-link:hover .staff-icon,
-.staff-social-link:focus .staff-icon
- {
+.staff-social-item:hover .staff-icon {
 	fill: #FFFFFF;
-	
 }
 
-.staff-social-link:hover,
-.staff-social-link:focus {
+
+
+.staff-social-item .staff-icon:hover,
+.staff-social-item .staff-icon:focus {
 	background-color: #2196F3;
 }
 
@@ -485,6 +486,7 @@ ul {
 }
 
 .footer-social-title {
+	fon
 	display: flex;
 	display: block;
 	font-size: 14px;
@@ -505,44 +507,41 @@ ul {
 	margin-left: 70px;
 	justify-content: center;
 }
-
 .footer-social-item {
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.footer-adress-link {
 	display: flex;
 	display: block;
 
 	font-family: inherit;
 	width: 44px;
 	height: 44px;
-	border-radius: 50%;
-	background-color: rgba(255, 255, 255, 0.1);
+	
 	background-position: center;
-}
-
-.footer-social-item:not(:last-child) {
-	margin-right: 10px;
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-	background-color: #2196F3;
-}
-
-.footer-social-link {
-    display: block;
-	display: flex;
 	margin-top: 12px;
 	
 	justify-content: center;
 	cursor: pointer;
 }
 
-.footer-social-icon {
-	display: flex;
-	display: block;
-	fill: #FFFFFF;
-    justify-content: center;
-	;
+.footer-social-item:not(:last-child) {
+	margin-right: 10px;
 }
+
+.footer-social-item .footer-social-icon:hover,
+.footer-social-item .footer-social-icon:focus {
+	background-color: #2196F3;
+}
+
+
+	
+}
+
+
 
 
 /*-------------------------PORTFOLIO.html----------------*/
